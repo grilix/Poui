@@ -18,6 +18,9 @@
 		EAA2B6F21430147A0067DE3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAA2B6F01430147A0067DE3F /* InfoPlist.strings */; };
 		EAA2B6F41430147A0067DE3F /* PouiTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EAA2B6F31430147A0067DE3F /* PouiTests.h */; };
 		EAA2B6F61430147A0067DE3F /* PouiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B6F51430147A0067DE3F /* PouiTests.m */; };
+		EAA2B707143018B70067DE3F /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B706143018B70067DE3F /* MainView.m */; };
+		EAA2B70A14301A3A0067DE3F /* Pow.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B70914301A3A0067DE3F /* Pow.m */; };
+		EAA2B70B14301A3A0067DE3F /* Pow.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2B70914301A3A0067DE3F /* Pow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +39,24 @@
 		EAA2B6CD143014790067DE3F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EAA2B6CE143014790067DE3F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EAA2B6CF143014790067DE3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EAA2B6D2143014790067DE3F /* Poui-Info.plist */ = {isa = PBXFileReference; path = "Poui-Info.plist"; sourceTree = "<group>"; };
+		EAA2B6D2143014790067DE3F /* Poui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Poui-Info.plist"; sourceTree = "<group>"; };
 		EAA2B6D4143014790067DE3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAA2B6D6143014790067DE3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAA2B6D8143014790067DE3F /* Poui-Prefix.pch */ = {isa = PBXFileReference; path = "Poui-Prefix.pch"; sourceTree = "<group>"; };
+		EAA2B6D8143014790067DE3F /* Poui-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Poui-Prefix.pch"; sourceTree = "<group>"; };
 		EAA2B6DA143014790067DE3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		EAA2B6DC143014790067DE3F /* PouiAppDelegate.h */ = {isa = PBXFileReference; path = PouiAppDelegate.h; sourceTree = "<group>"; };
+		EAA2B6DC143014790067DE3F /* PouiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PouiAppDelegate.h; sourceTree = "<group>"; };
 		EAA2B6DD143014790067DE3F /* PouiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PouiAppDelegate.m; sourceTree = "<group>"; };
 		EAA2B6E01430147A0067DE3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EAA2B6E71430147A0067DE3F /* PouiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PouiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA2B6E81430147A0067DE3F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		EAA2B6EF1430147A0067DE3F /* PouiTests-Info.plist */ = {isa = PBXFileReference; path = "PouiTests-Info.plist"; sourceTree = "<group>"; };
+		EAA2B6EF1430147A0067DE3F /* PouiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PouiTests-Info.plist"; sourceTree = "<group>"; };
 		EAA2B6F11430147A0067DE3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAA2B6F31430147A0067DE3F /* PouiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PouiTests.h; sourceTree = "<group>"; };
 		EAA2B6F51430147A0067DE3F /* PouiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PouiTests.m; sourceTree = "<group>"; };
+		EAA2B705143018B70067DE3F /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		EAA2B706143018B70067DE3F /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		EAA2B70814301A3A0067DE3F /* Pow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pow.h; sourceTree = "<group>"; };
+		EAA2B70914301A3A0067DE3F /* Pow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +83,10 @@
 		EAA2B6BB143014790067DE3F = {
 			isa = PBXGroup;
 			children = (
+				EAA2B70814301A3A0067DE3F /* Pow.h */,
+				EAA2B70914301A3A0067DE3F /* Pow.m */,
+				EAA2B705143018B70067DE3F /* MainView.h */,
+				EAA2B706143018B70067DE3F /* MainView.m */,
 				EAA2B6D0143014790067DE3F /* Poui */,
 				EAA2B6ED1430147A0067DE3F /* PouiTests */,
 				EAA2B6C9143014790067DE3F /* Frameworks */,
@@ -264,6 +275,8 @@
 			files = (
 				EAA2B6D7143014790067DE3F /* main.m in Sources */,
 				EAA2B6DE143014790067DE3F /* PouiAppDelegate.m in Sources */,
+				EAA2B707143018B70067DE3F /* MainView.m in Sources */,
+				EAA2B70A14301A3A0067DE3F /* Pow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA2B6F61430147A0067DE3F /* PouiTests.m in Sources */,
+				EAA2B70B14301A3A0067DE3F /* Pow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
